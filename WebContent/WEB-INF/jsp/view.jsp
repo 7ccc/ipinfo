@@ -83,20 +83,6 @@
 <body>
     <div class="layout">
         <div class="top">
-            <a class="logo" href="">IP-INFO</a>
-            <div class="search">
-                <form action="" method="post" class="form-inline">
-                    <input class="form-control" id="ip-input" name="ip" placeholder="IP Address">
-                    <button type="submit" class="btn btn-default">Search</button>
-                </form>
-            </div>
-        </div>
-        <hr/>
-        <h1 class="show-ip">${info.ip}</h1>
-        <div class="map-img">
-        	<img id="loc-img" src="images/loading.gif"/>
-        	<a id="tips">图片正在路上...</a>
-        </div>
             <a class="logo" href="#">IP-INFO</a>
             <div class="search">
                 <form action="" method="post" class="form-inline">
@@ -127,7 +113,6 @@
                 </tr>
                 <tr>
                     <td class="key">Country</td>
-                    <!-- 由于不想引入jar包所以就这么写了 -->
                     <td class="value"><span class="flag flag-<%=((JsonEntity)request.getAttribute("info")).getCountry().toLowerCase()%>"></span>${info.country}</td>
                 </tr>
                 <tr>
