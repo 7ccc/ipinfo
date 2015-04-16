@@ -97,6 +97,7 @@
         	<img id="loc-img" src="images/loading.gif"/>
         	<a id="tips">图片正在路上...</a>
         </div>
+        <!--<img class="loc-img" src="data:image/png;base64,${locImg}"/>-->
         <div class="info-table">
             <table class="table table-striped">
                 <tr>
