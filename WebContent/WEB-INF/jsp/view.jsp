@@ -13,12 +13,12 @@
     <link rel="stylesheet" href="css/pace.css"/>
     <script type="text/javascript" src="js/pace.js"></script>
     
-	<link rel="stylesheet" href="http://cdn.bootcss.com/bootstrap/3.3.4/css/bootstrap.min.css"/>
-	<link rel="stylesheet" href="http://cdn.bootcss.com/bootstrap/3.3.4/css/bootstrap-theme.min.css"/>
+	<link rel="stylesheet" href="css/bootstrap.min.css"/>
+	<link rel="stylesheet" href="css/bootstrap-theme.min.css"/>
 	<link rel="stylesheet" href="css/flags.css"/>
     <!--[if lt IE 9]>
-	  	<script src="http://cdn.bootcss.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-	  	<script src="http://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+	  	<script src="js/html5shiv.min.js"></script>
+	  	<script src="js/respond.min.js"></script>
 	<![endif]-->
     <style type="text/css">
         .layout{
@@ -97,7 +97,6 @@
         	<img id="loc-img" src="images/loading.gif"/>
         	<a id="tips">图片正在路上...</a>
         </div>
-        <!--<img class="loc-img" src="data:image/png;base64,${locImg}"/>-->
         <div class="info-table">
             <table class="table table-striped">
                 <tr>
@@ -134,8 +133,8 @@ ${info.json}</pre>
         <p class="copyright">By&nbsp;<a href="tencent://Message/?uin=412436000">OneSky</a>.</p>
     </div>
 </body>
-<script src="http://cdn.bootcss.com/jquery/1.11.2/jquery.min.js"></script>
-<script src="http://cdn.bootcss.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+<script src="js/jquery-1.11.1.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
 <script type="text/javascript">
 	$(function(){
 		$.get("GetLocImg","r="+new Date().getTime(),function(data){
