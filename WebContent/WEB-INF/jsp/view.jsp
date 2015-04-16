@@ -97,6 +97,20 @@
         	<img id="loc-img" src="images/loading.gif"/>
         	<a id="tips">图片正在路上...</a>
         </div>
+            <a class="logo" href="#">IP-INFO</a>
+            <div class="search">
+                <form action="" method="post" class="form-inline">
+                    <input class="form-control" id="ip-input" name="ip" placeholder="IP Address">
+                    <button type="submit" class="btn btn-default">Search</button>
+                </form>
+            </div>
+        </div>
+        <hr/>
+        <h1 class="show-ip">${info.ip}</h1>
+        <div class="map-img">
+        	<img id="loc-img" src="images/loading.gif"/>
+        	<a id="tips">图片正在路上...</a>
+        </div>
         <div class="info-table">
             <table class="table table-striped">
                 <tr>
