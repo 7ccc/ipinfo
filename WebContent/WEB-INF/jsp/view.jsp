@@ -130,7 +130,7 @@
 ${info.json}</pre>
         </div>
         <hr/>
-        <p class="copyright">By&nbsp;<a href="tencent://Message/?uin=412436000">OneSky</a>.</p>
+        <p class="copyright">By&nbsp;<a href="tencent://Message/?uin=412436000">7ccc</a>.</p>
     </div>
 </body>
 <script src="js/jquery-1.11.1.min.js"></script>
